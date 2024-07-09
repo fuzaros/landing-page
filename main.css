@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif, Times, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar {
+    background-color: #5d26f3;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:  #b9b9b9;
+}
+
+.navbar-brand, 
+#cabecalho .nav .nav-link, 
+.navbar-brand:hover,
+.nav-disponivel .nav-link .active:hover {
+    color: #fff;
+}
+
+.navbar-toggler, #disponivel {
+    background-color: #ebe5f7;
+}
+.section-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#sobre-imobiliaria, #disponivel {
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color:  #5d26f3;
+}
+
+.nav-disponivel .nav-link.active,
+#fale-conosco button{
+    background-color:  #5d26f3;
+    color: #fff;
+}
+.nav-disponivel .nav-link:hover{
+    color:  #5d26f3;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
